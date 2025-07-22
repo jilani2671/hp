@@ -10,23 +10,29 @@
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- AOS Library (for animation) -->
+  <!-- <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
 
 </head>
 
 <body>
 
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/919145509192" 
-   class="fixed z-50 bottom-6 right-6 inline-flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-800"
-   target="_blank" aria-label="Chat on WhatsApp">
-   
-   <!-- Official WhatsApp Logo SVG -->
-   <svg class="w-7 h-7" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-     <path d="M16.04 2.004c-7.732 0-14 6.269-14 14 0 2.473.646 4.894 1.875 7.014l-1.97 7.408 7.616-1.987a13.902 13.902 0 0 0 6.479 1.575h.001c7.732 0 14-6.268 14-14s-6.268-14.01-14-14.01Zm0 25.456c-2.074 0-4.108-.547-5.888-1.584l-.421-.25-4.521 1.18 1.168-4.434-.273-.448A11.872 11.872 0 0 1 4.204 16c0-6.502 5.3-11.8 11.836-11.8 6.5 0 11.8 5.299 11.8 11.8s-5.299 11.8-11.8 11.8Zm6.457-8.825c-.354-.177-2.092-1.034-2.415-1.153-.323-.119-.558-.177-.793.177s-.91 1.153-1.115 1.388c-.204.235-.408.265-.762.088-.354-.177-1.496-.552-2.85-1.762-1.053-.94-1.763-2.096-1.968-2.45-.204-.354-.022-.545.153-.721.157-.156.354-.408.531-.612.177-.204.235-.354.354-.59.118-.235.059-.442-.03-.62-.089-.177-.793-1.91-1.086-2.617-.285-.683-.576-.589-.793-.599l-.676-.012c-.236 0-.62.088-.944.442-.323.354-1.23 1.2-1.23 2.927 0 1.727 1.26 3.396 1.435 3.63.177.235 2.483 3.794 6.012 5.185.84.362 1.496.577 2.007.737.843.267 1.61.229 2.215.139.675-.101 2.092-.854 2.389-1.679.295-.824.295-1.532.206-1.679-.089-.147-.324-.235-.675-.412Z" />
-   </svg>
-</a>
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919145509192"
+    class="fixed z-50 bottom-6 right-6 inline-flex items-center justify-center w-14 h-14 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 focus:ring-4 focus:ring-green-300 dark:focus:ring-green-800"
+    target="_blank" aria-label="Chat on WhatsApp">
+
+    <!-- Official WhatsApp Logo SVG -->
+    <svg class="w-7 h-7" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M16.04 2.004c-7.732 0-14 6.269-14 14 0 2.473.646 4.894 1.875 7.014l-1.97 7.408 7.616-1.987a13.902 13.902 0 0 0 6.479 1.575h.001c7.732 0 14-6.268 14-14s-6.268-14.01-14-14.01Zm0 25.456c-2.074 0-4.108-.547-5.888-1.584l-.421-.25-4.521 1.18 1.168-4.434-.273-.448A11.872 11.872 0 0 1 4.204 16c0-6.502 5.3-11.8 11.836-11.8 6.5 0 11.8 5.299 11.8 11.8s-5.299 11.8-11.8 11.8Zm6.457-8.825c-.354-.177-2.092-1.034-2.415-1.153-.323-.119-.558-.177-.793.177s-.91 1.153-1.115 1.388c-.204.235-.408.265-.762.088-.354-.177-1.496-.552-2.85-1.762-1.053-.94-1.763-2.096-1.968-2.45-.204-.354-.022-.545.153-.721.157-.156.354-.408.531-.612.177-.204.235-.354.354-.59.118-.235.059-.442-.03-.62-.089-.177-.793-1.91-1.086-2.617-.285-.683-.576-.589-.793-.599l-.676-.012c-.236 0-.62.088-.944.442-.323.354-1.23 1.2-1.23 2.927 0 1.727 1.26 3.396 1.435 3.63.177.235 2.483 3.794 6.012 5.185.84.362 1.496.577 2.007.737.843.267 1.61.229 2.215.139.675-.101 2.092-.854 2.389-1.679.295-.824.295-1.532.206-1.679-.089-.147-.324-.235-.675-.412Z" />
+    </svg>
+  </a>
 
   <nav class="fixed top-0 z-50 w-full bg-green-200 border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
@@ -139,63 +145,452 @@
   <div class="p-4 sm:ml-64 ">
     <div class="mt-10"></div>
     <br>
-
-   <section class="relative bg-white dark:bg-gray-900 overflow-hidden rounded-xl" 
-         style="background-image: url('images/hp.png'); background-repeat: no-repeat; background-position: top center; background-size: 200px; margin-top: 200
+    <!-- hero section -->
+    <section class="relative bg-white dark:bg-gray-900 overflow-hidden rounded-t-lg " style="background-image: url('images/hp.png'); background-repeat: no-repeat; background-position: top center; background-size: 200px; margin-top: 200
          px;">
-          
-          <!-- Blurred Overlay -->
-          <div class="absolute inset-0 bg-white/80 dark:bg-black/60 backdrop-blur-sm z-0"></div>
 
-          <!-- Content -->
-          <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto text-center lg:py-32 lg:px-6">
-            
-            <!-- Heading -->
-            <h1 class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white animate__animated animate__fadeInDown">
-              Healthline Pharma
-            </h1>
-            <p class="mb-8 text-xl font-medium text-gray-700 dark:text-gray-300 animate__animated animate__fadeIn animate__delay-1s">
-              Surgical Distributor & Wholesaler
+      <!-- Blurred Overlay -->
+      <div class="absolute inset-0 bg-white/80 dark:bg-black/60 backdrop-blur-sm z-0"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-screen-xl px-4 py-24 mx-auto text-center lg:py-32 lg:px-6">
+
+        <!-- Heading -->
+        <h1
+          class="mb-4 text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white animate__animated animate__fadeInDown">
+          Healthline Pharma
+        </h1>
+        <p
+          class="mb-8 text-xl font-medium text-gray-700 dark:text-gray-300 animate__animated animate__fadeIn animate__delay-1s">
+          Surgical Distributor & Wholesaler
+        </p>
+
+        <!-- Cards -->
+        <div
+          class="grid gap-6 md:grid-cols-3 px-4 max-w-6xl mx-auto animate__animated animate__fadeInUp animate__delay-2s">
+
+          <!-- Card 1: Best Quality -->
+          <div
+            class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
+            <svg class="w-10 h-10 mb-3 text-teal-500 group-hover:animate-pulse transition" fill="none"
+              stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 14l9-5-9-5-9 5 9 5z" />
+              <path d="M12 14l6.16-3.422A12.083 12.083 0 0112 21.5a12.083 12.083 0 01-6.16-10.922L12 14z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Best Quality</h3>
+            <p class="text-center text-gray-600 dark:text-gray-300">
+              Quality is the first thing on which our company's emphasize is focused.
             </p>
+          </div>
 
-            <!-- Cards -->
-            <div class="grid gap-6 md:grid-cols-3 px-4 max-w-6xl mx-auto animate__animated animate__fadeInUp animate__delay-2s">
-              
-        <!-- Card 1 -->
-        <div class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-900 text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
-          <svg class="w-10 h-10 mb-3 text-teal-400 group-hover:animate-pulse transition" fill="none" stroke="currentColor" stroke-width="2"
-            viewBox="0 0 24 24">
-            <path d="M12 14l9-5-9-5-9 5 9 5z" />
-            <path d="M12 14l6.16-3.422A12.083 12.083 0 0112 21.5a12.083 12.083 0 01-6.16-10.922L12 14z" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-2">Best Quality</h3>
-          <p class="text-center text-gray-300">Quality is the first thing on which our company's emphasize is focused.</p>
+          <!-- Card 2: Experience -->
+          <div
+            class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
+            <svg class="w-10 h-10 mb-3 text-red-500 group-hover:animate-pulse transition" fill="none"
+              stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M8 16h8M8 12h8M9 20h6a2 2 0 002-2V6a2 2 0 00-2-2H9a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Experience</h3>
+            <p class="text-center text-gray-600 dark:text-gray-300">
+              Our team has proven its success in the health field.
+            </p>
+          </div>
+
+          <!-- Card 3: Vision -->
+          <div
+            class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
+            <svg class="w-10 h-10 mb-3 text-purple-500 group-hover:animate-pulse transition" fill="none"
+              stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 20l-8-4V4a2 2 0 012-2h10a2 2 0 012 2v12l-8 4z" />
+            </svg>
+            <h3 class="text-xl font-semibold mb-2">Vision</h3>
+            <p class="text-center text-gray-600 dark:text-gray-300">
+              The reliable and quality-oriented Manufacturers & Suppliers of LVP.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+    <!-- cards -->
+    <section class="bg-white dark:bg-gray-900 py-16 px-6">
+      <div class="max-w-screen-xl mx-auto text-center mb-12">
+        <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Products</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          We ensure the supply of pharmaceuticals within the framework of compliance with legal regulations and
+          facilitate the accessibility of quality products.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-screen-xl mx-auto">
+
+        <!-- CARD 1 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
+            alt="Sodium Chloride" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Sodium Chloride (0.9% NS)</h3>
+          </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-900 text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
-          <svg class="w-10 h-10 mb-3 text-red-400 group-hover:animate-pulse transition" fill="none" stroke="currentColor" stroke-width="2"
-            viewBox="0 0 24 24">
-            <path d="M8 16h8M8 12h8M9 20h6a2 2 0 002-2V6a2 2 0 00-2-2H9a2 2 0 00-2 2v12a2 2 0 002 2z" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-2">Experience</h3>
-          <p class="text-center text-gray-300">Our team has proven its success in the health field.</p>
+        <!-- CARD 2 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
+            alt="Dextrose Injection" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Dextrose Inj. (Glucose)</h3>
+          </div>
         </div>
 
-        <!-- Card 3 -->
-        <div class="flex flex-col items-center justify-center p-6 rounded-lg bg-gray-900 text-white shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl group">
-          <svg class="w-10 h-10 mb-3 text-purple-400 group-hover:animate-pulse transition" fill="none" stroke="currentColor" stroke-width="2"
-            viewBox="0 0 24 24">
-            <path d="M12 20l-8-4V4a2 2 0 012-2h10a2 2 0 012 2v12l-8 4z" />
-          </svg>
-          <h3 class="text-xl font-semibold mb-2">Vision</h3>
-          <p class="text-center text-gray-300">The reliable and quality-oriented Manufacturers & Suppliers of LVP.</p>
+        <!-- CARD 3 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/content-gallery-3.png"
+            alt="Ringer Lactate" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Ringer Lactate Sol. (RL)</h3>
+          </div>
         </div>
 
+        <!-- CARD 4 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img
+            src="https://5.imimg.com/data5/SELLER/Default/2023/3/296279869/PI/YP/VB/12006530/electrolyte-solution-500x500.jpg"
+            alt="Electrolytes" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Multiple Electrolytes</h3>
+          </div>
+        </div>
 
+        <!-- CARD 5 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://www.gandhimedicos.in/wp-content/uploads/2021/11/Amrutam-Pediatric-ORS-1.jpg"
+            alt="Pediatric Solutions" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Pediatric Solutions</h3>
+          </div>
+        </div>
+
+        <!-- CARD 6 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://pharmadigipedia.com/wp-content/uploads/2023/06/our-product.jpg" alt="Our Products"
+            class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Our Products</h3>
+          </div>
+        </div>
+
+        <!-- CARD 7 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://www.advacarepharma.com/wp-content/uploads/2022/10/Sterile-Water-for-Injection1.jpg"
+            alt="Sterile Water Injection" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Sterile Water Injection</h3>
+          </div>
+        </div>
+
+        <!-- CARD 8 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://www.advacarepharma.com/wp-content/uploads/2022/10/Sterile-Water-for-Injection1.jpg"
+            alt="Sterile Water Injection" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Sterile Water Injection</h3>
+          </div>
+        </div>
+        <!-- CARD 9 -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+          <img src="https://www.advacarepharma.com/wp-content/uploads/2022/10/Sterile-Water-for-Injection1.jpg"
+            alt="Sterile Water Injection" class="w-full h-40 object-cover">
+          <div class="p-5">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Sterile Water Injection</h3>
+          </div>
+        </div>
+        <!-- You can continue adding up to 15 cards total to make 5 rows -->
+        <!-- Duplicate and change image/text for more cards -->
+
+      </div>
+    </section>
+
+    <!-- About Us Section with Light/Dark Mode -->
+    <section class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white py-20 transition-colors duration-300">
+      <div class="max-w-screen-xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+        <!-- LEFT: Text Content -->
+        <div>
+          <h4 class="uppercase text-sm text-teal-600 dark:text-teal-400 font-semibold mb-2">About Us</h4>
+          <h1 class="text-4xl font-extrabold leading-tight mb-6">
+            We Provide Best <span class="text-teal-600 dark:text-teal-400">Pharmaceutical</span> Services<br />For You
+          </h1>
+
+          <div class="mb-6 space-x-4 text-sm font-semibold text-gray-600 dark:text-gray-300">
+            <span class="text-red-600 dark:text-red-400 border-b-2 border-red-600 dark:border-red-400">About Healthline
+              Pharma</span>
+            <span class="hover:text-teal-600 dark:hover:text-teal-400 cursor-pointer">Our Mission</span>
+            <span class="hover:text-teal-600 dark:hover:text-teal-400 cursor-pointer">Our Vision</span>
+          </div>
+
+          <p class="text-base text-gray-700 dark:text-gray-300 leading-relaxed">
+            Healthline Pharma is a leading Surgical & Generic wholesaler in Urun-Islampur. We offer Intravenous
+            Infusions (I.V. Fluids) and supply pharmaceuticals by complying with legal and quality standards. Our
+            facility is equipped with modern technology and a committed team that ensures reliable distribution and
+            high-quality products.
+          </p>
+        </div>
+
+        <!-- RIGHT: Images + Download Button -->
+        <div class="space-y-4">
+          <img src="https://4.imimg.com/data4/SB/EP/ANDROID-48221759/product-500x500.jpeg"
+            class="rounded-lg shadow-md w-full h-64 object-cover border border-gray-300 dark:border-gray-700"
+            alt="Production Image">
+
+          <div class="flex justify-between items-center">
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2022/1/LY/JO/PS/10633400/product-jpeg-500x500.jpg"
+              class="w-44 h-28 rounded-lg shadow-md border border-gray-300 dark:border-gray-700" alt="Building">
+
+            <a href="#" target="_blank"
+              class="inline-flex items-center px-4 py-2 bg-red-600 text-white font-semibold rounded hover:bg-red-700 transition">
+              <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 16l4-5h-3V4h-2v7H8l4 5zM5 18h14v2H5z" />
+              </svg>
+              Download
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white py-20">
+      <div class="max-w-screen-xl mx-auto px-6">
+        <!-- Heading -->
+        <div class="text-center mb-12">
+          <h4 class="uppercase text-sm font-semibold tracking-widest text-gray-500 dark:text-gray-400">Our Core Values
+          </h4>
+          <h2 class="text-3xl md:text-4xl font-extrabold">
+            Our values represent our promise to our stakeholders.
+          </h2>
+          <div class="mt-2 w-16 h-1 mx-auto bg-teal-500 rounded-full"></div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Card 1: Availability -->
+          <div class="flex gap-4 items-start p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+            <!-- Icon -->
+            <svg class="w-12 h-12 text-red-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+
+            <div>
+              <h3 class="text-lg font-bold mb-2">Availability</h3>
+              <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+                <li><strong>Maharashtra</strong>, Karnataka</li>
+                <li>Tamil Nadu, Andhra Pradesh</li>
+                <li>Kerala, Goa</li>
+                <li>Gujarat</li>
+              </ul>
             </div>
           </div>
-</section>
+
+          <!-- Card 2: Exporting -->
+          <div class="flex gap-4 items-start p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+            <svg class="w-12 h-12 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 13V10" />
+            </svg>
+
+            <div>
+              <h3 class="text-lg font-bold mb-2">Exporting</h3>
+              <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+                <li>Istanbul</li>
+                <li>Qatar</li>
+                <li>Libya</li>
+                <li>Yemen, Kenya</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3: Integrity -->
+          <div class="flex gap-4 items-start p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+            <svg class="w-12 h-12 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+
+            <div>
+              <h3 class="text-lg font-bold mb-2">Integrity</h3>
+              <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+                <li>Do the right thing with conviction and without fear.</li>
+                <li>Practice honesty, fairness, and impartiality.</li>
+                <li>Adhere to ethical and moral standards.</li>
+                <li>Call out what is not right.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 4: Innovation -->
+          <div class="flex gap-4 items-start p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md">
+            <svg class="w-12 h-12 text-yellow-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+
+            <div>
+              <h3 class="text-lg font-bold mb-2">Innovation</h3>
+              <ul class="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
+                <li>Strive to implement new ideas & tech.</li>
+                <li>Encourage out-of-the-box thinking.</li>
+                <li>Don’t limit yourself.</li>
+                <li>Raise the bar every time.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900 text-gray-800 dark:text-white py-20">
+      <div class="max-w-screen-xl mx-auto px-6 text-center">
+        <!-- Header -->
+        <h4 class="uppercase text-sm text-gray-500 dark:text-gray-400 font-semibold tracking-wide mb-2">Testimonials
+        </h4>
+        <h2 class="text-3xl md:text-4xl font-extrabold mb-4">What Our Clients<br><span class="text-teal-500">Have To
+            Say</span></h2>
+        <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-12 text-sm">
+          The products and marketing services are excellent. Employees are cooperative, box quality is fine.
+        </p>
+
+        <!-- Testimonial Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Card 1 -->
+          <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
+            <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+              Good culture, working hours very good, supporting staff and team members, overall good working environment
+              for beginners.
+            </p>
+            <!-- Stars -->
+            <div class="flex justify-center mb-4">
+              <div class="flex space-x-1 text-yellow-400">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <!-- Profile -->
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://i.pravatar.cc/48?u=1" class="w-12 h-12 rounded-full" alt="Avatar">
+              <div class="text-left">
+                <h4 class="font-semibold text-sm">Mustakim Mujawar</h4>
+                <p class="text-xs text-gray-400">Satara</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
+            <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+              The products and marketing services are excellent. Employees are cooperative, box quality is fine.
+            </p>
+            <div class="flex justify-center mb-4">
+              <div class="flex space-x-1 text-yellow-400">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://i.pravatar.cc/48?u=2" class="w-12 h-12 rounded-full" alt="Avatar">
+              <div class="text-left">
+                <h4 class="font-semibold text-sm">Mahendihasan Sathiya</h4>
+                <p class="text-xs text-gray-400">Kolhapur</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md relative">
+            <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+              Good culture, working hours very good, supporting staff and team members, overall good working environment
+              for beginners.
+            </p>
+            <div class="flex justify-center mb-4">
+              <div class="flex space-x-1 text-yellow-400">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="flex items-center justify-center gap-3">
+              <img src="https://i.pravatar.cc/48?u=3" class="w-12 h-12 rounded-full" alt="Avatar">
+              <div class="text-left">
+                <h4 class="font-semibold text-sm">Mustakim Mujawar</h4>
+                <p class="text-xs text-gray-400">Pune</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 pt-16 pb-8">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+
+          <!-- About Section -->
+          <div>
+            <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white">About Our Company</h2>
+            <p class="text-sm leading-relaxed text-gray-600 dark:text-gray-300">
+              Health Line Pharmaceuticals Pvt Ltd is a company formed to take over the existing manufacturing setup of
+              Intravenous Infusions (I.V. Fluids) in Glass Bottles, established in 1986 at urun islampur, Dist Sangli,
+              Maharashtra.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div>
+            <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white">How To Reach Us</h2>
+            <ul class="text-sm space-y-3 text-gray-600 dark:text-gray-300">
+              <li><strong>Address:</strong><br> Sawakar Complex, Yusuf Sawakar Colony, Shirala Naka, Uran Islampur, Maharashtra 415409</li>
+              <li><strong>Call:</strong><br> +91-9145509192</li>
+              <li><strong>Email:</strong><br> healthlinepharma9192@gmail.com</li>
+            </ul>
+          </div>
+
+          <!-- Useful Links -->
+          <div>
+            <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white">Links</h2>
+            <ul class="space-y-2 text-sm">
+              <li><a href="#" class="hover:text-teal-500 transition">About Us</a></li>
+              <li><a href="#" class="hover:text-teal-500 transition dark:text-teal-400">Products</a></li>
+              <li><a href="#" class="hover:text-teal-500 transition">Gallery</a></li>
+              <li><a href="#" class="hover:text-teal-500 transition">News & Events</a></li>
+              <li><a href="#" class="hover:text-teal-500 transition">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Google Map -->
+          <div>
+            <h2 class="text-xl font-bold mb-4 text-gray-900 dark:text-white">Contacts</h2>
+            <div class="rounded-lg overflow-hidden shadow-md border dark:border-gray-700">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3814.525780824846!2d74.2645654!3d17.0469156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc175003c8aae0b%3A0x63f4777d9a9fc8ab!2sHealthline%20Pharma!5e0!3m2!1sen!2sin!4v1753195562405!5m2!1sen!2sin" 
+                width="100%" height="180" allowfullscreen="" loading="lazy"
+                class="w-full border-0 dark:brightness-90"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="mt-10 pt-6 border-t border-gray-200 dark:border-gray-700 text-center text-sm text-gray-500 dark:text-gray-400">
+          &copy; 2023 Healthline Pharma. All Rights Reserved. | Designed & Developed by
+          <span class="text-teal-600 dark:text-teal-400 font-semibold">Jilani</span>
+        </div>
+      </div>
+    </footer>
 
 
 
